@@ -8,8 +8,8 @@ while True:
         continue
 
     if 1 <= Person <= 10:
-        for I in range(Person):
-            print(f"This is a {I+1}:")
+        for SetI in range(Person):
+            print(f"This is a {SetI+1}:")
 
             # ===== Input SetX =====
             while True:
