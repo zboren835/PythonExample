@@ -5,7 +5,6 @@ while True:
         Person = int(input("please input PersonNumber[1~10]: "))
     except ValueError:
         print("❌ 請輸入整數！")
-        continue
 
     if 1 <= Person <= 10:
         for I in range(Person):
